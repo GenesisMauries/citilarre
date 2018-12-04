@@ -8,14 +8,12 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-   
 }
 
 .registro{
     display: flex;
     flex-direction: column;
     width: 70vw;
-
 }
 .container-registro img{
     width: 18em;
@@ -41,4 +39,4 @@ text-align: left;
     height: 3em;
     margin-top: 5%
    
-  }
+}
