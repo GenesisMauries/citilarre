@@ -24,7 +24,7 @@ self.__precacheManifest = [
     "url": "/citilarre/static/css/main.b968af6c.chunk.css"
   },
   {
-    "revision": "323795e60c220179649785912abcb1fd",
+    "revision": "f77ddeba42f729a6a351bd95628df504",
     "url": "/citilarre/index.html"
   }
 ];
