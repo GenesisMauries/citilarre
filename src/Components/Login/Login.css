@@ -2,3 +2,31 @@
   background-color: rgba(0, 255, 255, 0.304);
   padding: 10%;
 }
+
+.btn-active {
+  font-family: Arial;
+  font-size: 0.8em;
+  background-color: #3cb0e5;
+  color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 4px;
+  border-radius: 1.5em;
+  border-color: #3cb0e5;
+  width: 8em;
+  height: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-secondary {
+  font-family: Arial;
+  font-size: 0.8em;
+  background-color: #94949400;
+  color: white;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 4px;
+  border-radius: 1.5em;
+  border-color: #94949400;
+  width: 8em;
+  height: 3em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
