@@ -1,0 +1,57 @@
+.amount {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 3em;
+  color: #979797;
+}
+
+.movments {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  font-size: 30px;
+  color: #000000;
+}
+.add-money {
+  color: #86bc00;
+}
+
+.date-movments {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  color: #a3adb4;
+  padding: 1em;
+}
+.date-panel {
+  margin: 0.3em;
+  padding: 0.3em;
+}
+
+.title-movments {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 2em;
+  text-align: center;
+  color: #1d396c;
+  padding: 1.5em;
+}
+.panel-movments {
+  padding: 1.3em;
+}
+
+@media screen and (max-width: 959px) {
+  .amount {
+    font-size: 2em;
+  }
+  .title-movments {
+    font-size: 1.5px;
+  }
+}
