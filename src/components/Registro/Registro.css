@@ -1,0 +1,28 @@
+body{
+    background-image: url("../../assets/playa.png");
+    background-size: cover;
+}
+.container-registro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40%;
+}
+.registro{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+
+}
+.container-registro img{
+    width: 18em;
+    text-align: center !important;
+}
+.registro span{
+text-align: left;
+}
+.registro input{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: none;
+}
