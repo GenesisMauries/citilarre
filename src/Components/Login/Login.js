@@ -1,43 +1,37 @@
-import React, { Component } from 'react';
+import React from 'react';
 import './Login.css';
 
-let password = 'Sakurita';
-const user = this.state.userName;
+const Login = () => {
+  const userName = 'Sakura';
 
-class Login extends Component {
-  constructor() {
-    super();
-    this.state = {
-      login: false,
-      userName: 'Nayely Bravo',
-      password: ''
-    };
-  }
+  let tries = 0;
 
-  auth = e => {
-    const passwordInput = this.setState({ password: event.target.value });
-    console.log(passwordInput);
-    const passwordUser = 'sakurita';
+  const auth = () => {
+    const password = document.getElementById('password');
 
-    if (passwordInput == passwordUser) {
-      this.setState({
-        login: true
-      });
-      console.log('login succes!');
+    console.log(tries);
+    if (tries === 3) {
+      alert('has rebasado el número de intentos permitidos');
+    } else {
+      if (password.value === '12345') {
+        alert('Login exitoso');
+      } else {
+        alert('Password incorrecto');
+        tries++;
+        console.log(tries);
+      }
     }
   };
 
-  render() {
-    return (
-      <div className="login-panel">
-        <h1>Welcome {user}</h1>
-        <input
-          placeholder="Contraseña"
-          value={password}
-          onChange={this.auth.bind(this)}
-        />
-      </div>
-    );
-  }
-}
+  return (
+    <div className="login-panel">
+      <h1>Welcome {userName}</h1>
+      <input id="password" placeholder="Contraseña" />
+      <button onClick={auth} className="btn-active">
+        Log In
+      </button>
+    </div>
+  );
+};
+
 export default Login;
