@@ -1,20 +1,13 @@
-import React, { Component } from "react";
-import { Redirect, BrowserRouter, Switch, Route } from "react-router-dom";
-import "./App.css";
-import Login from "./Components/Login/Login";
+import React, { Component } from 'react';
+import './App.css';
+import Auth from './components/Api/Api';
 
 class App extends Component {
   render() {
     return (
-      <BrowserRouter>
-        <div className="App">
-          <Switch>
-            <Route path="/" component={Login} exact />
-            {/* <Route path="registro" component={Registro} />
-            <Route path="home" component={Home} /> */}
-          </Switch>
-        </div>
-      </BrowserRouter>
+      <div>
+        <Auth />
+      </div>
     );
   }
 }
