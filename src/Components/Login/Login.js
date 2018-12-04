@@ -1,14 +1,12 @@
 import React from 'react';
+import Citi from "../../assets/Image 3.png"
 import './Login.css';
 
+
 const Login = () => {
-  const userName = 'Sakura';
-
   let tries = 0;
-
   const auth = () => {
     const password = document.getElementById('password');
-
     console.log(tries);
     if (tries === 3) {
       alert('has rebasado el número de intentos permitidos');
@@ -25,13 +23,23 @@ const Login = () => {
 
   return (
     <div className="login-panel">
-      <h1>Welcome {userName}</h1>
-      <input id="password" placeholder="Contraseña" />
-      <button onClick={auth} className="btn-active">
-        Log In
+      <figure>
+        <img src={Citi}></img>
+      </figure>
+      {/* <input id="password" placeholder="Contraseña" /> */}
+      <p>Tu salud financiera a un solo click</p>
+      <div className="button">
+        <button onClick={auth} className="btn-active">
+          REGISTRATE
       </button>
+      </div>
+      <div className="button">
+        <button onClick={auth} className="btn-secondary">
+          INICIAR SESIÓN
+      </button>
+      </div>
     </div>
-  );
+  )
 };
 
 export default Login;
