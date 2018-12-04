@@ -1,7 +1,7 @@
 {
   "main.css": "/citilarre/static/css/main.505aa235.chunk.css",
-  "main.js": "/citilarre/static/js/main.4b04472a.chunk.js",
-  "main.js.map": "/citilarre/static/js/main.4b04472a.chunk.js.map",
+  "main.js": "/citilarre/static/js/main.01c47ada.chunk.js",
+  "main.js.map": "/citilarre/static/js/main.01c47ada.chunk.js.map",
   "static/js/1.c19b7d2b.chunk.js": "/citilarre/static/js/1.c19b7d2b.chunk.js",
   "static/js/1.c19b7d2b.chunk.js.map": "/citilarre/static/js/1.c19b7d2b.chunk.js.map",
   "runtime~main.js": "/citilarre/static/js/runtime~main.bbde49a6.js",
@@ -12,6 +12,6 @@
   "static/media/Arrow.svg": "/citilarre/static/media/Arrow.85568db3.svg",
   "static/css/main.505aa235.chunk.css.map": "/citilarre/static/css/main.505aa235.chunk.css.map",
   "index.html": "/citilarre/index.html",
-  "precache-manifest.0f346fe48d782cd0a5411e199bbbd97e.js": "/citilarre/precache-manifest.0f346fe48d782cd0a5411e199bbbd97e.js",
+  "precache-manifest.5d91e185c87c10b6b6e73fcee0811767.js": "/citilarre/precache-manifest.5d91e185c87c10b6b6e73fcee0811767.js",
   "service-worker.js": "/citilarre/service-worker.js"
 }

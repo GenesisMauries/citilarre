@@ -20,19 +20,19 @@ self.__precacheManifest = [
     "url": "/citilarre/static/js/runtime~main.bbde49a6.js"
   },
   {
-    "revision": "4b04472a69bf267ddd35",
-    "url": "/citilarre/static/js/main.4b04472a.chunk.js"
+    "revision": "01c47ada8360ee275e4b",
+    "url": "/citilarre/static/js/main.01c47ada.chunk.js"
   },
   {
     "revision": "c19b7d2ba1f5086569cb",
     "url": "/citilarre/static/js/1.c19b7d2b.chunk.js"
   },
   {
-    "revision": "4b04472a69bf267ddd35",
+    "revision": "01c47ada8360ee275e4b",
     "url": "/citilarre/static/css/main.505aa235.chunk.css"
   },
   {
-    "revision": "30f2bbf79b6c1a158cbb90f9be3e094d",
+    "revision": "0df18724f368bfcc0c978066fc1f0be9",
     "url": "/citilarre/index.html"
   }
 ];
