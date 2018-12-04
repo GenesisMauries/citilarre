@@ -1,0 +1,42 @@
+
+.container-registro{
+    background-image: url("../../assets/playa.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro{
+    display: flex;
+    flex-direction: column;
+    width: 70vw;
+}
+.container-registro img{
+    width: 18em;
+    text-align: center !important;
+}
+.registro span{
+text-align: left;
+}
+.registro input{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-style: none;
+}
+.btn-secondary {
+    font-family: Arial;
+    font-size: 0.8em;
+    background-color: #94949400;
+    color: #333;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 4px;
+    border-radius: 1.5em;
+    border-color: #333;
+    width: 19.5em;
+    height: 3em;
+    margin-top: 5%
+   
+}

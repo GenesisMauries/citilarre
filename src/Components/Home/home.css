@@ -1,0 +1,168 @@
+.display-flex {
+  display: flex;
+}
+.container-header {
+  position: fixed;
+  width: 100vw;
+  height: 40vh;
+  background-image: linear-gradient(
+    to right top,
+    #1e3a6c,
+    #25558b,
+    #2b72a9,
+    #3390c7,
+    #3cafe4
+  );
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-header h1 {
+  font-size: 1.1em;
+  margin-right: 2em;
+  padding-bottom: 0.5em;
+}
+.container-header h3 {
+  padding-top: 1em;
+  padding-left: 1em;
+  font-size: 1.5em;
+}
+
+.home {
+  width: 100vw;
+  height: 30vh;
+}
+.navbar-expand {
+  background-image: linear-gradient(
+    to right top,
+    #1e3a6c,
+    #25558b,
+    #2b72a9,
+    #3390c7,
+    #3cafe4
+  );
+  width: 100%;
+  height: 10%;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  font-size: .4em;
+  margin: 0;
+  padding: 0%;
+}
+li {
+  font-size: .4em;
+}
+a {
+  color: white;
+  width: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+a.navbar-brand {
+  font-size: 5em;
+}
+.nav-item {
+  padding: 0%;
+  margin: 0%;
+}
+figure {
+  margin: 0%;
+}
+.im {
+  color: white;
+  width: 2em;
+  height: 2em;
+  margin: 0%;
+  padding: 0%;
+}
+@media (min-width: 768px) { 
+  li {
+    margin: 3%;
+    align-items: center;
+    text-align: center;
+  }
+  .im {
+    color: white;
+    width: 3em;
+    height: 3em;
+    margin: 3%;
+    padding: 0%;
+  }
+ }
+
+@media (min-width: 992px) { 
+  li {
+    margin: 3%;
+    align-items: center;
+    text-align: center;
+  }
+  .im {
+    color: white;
+    width: 3.5em;
+    height: 3.5em;
+    margin: 3%;
+    padding: 0%;
+  }
+ }
+@media (min-width: 1200px) { 
+  li {
+    margin: 3%;
+    align-items: center;
+    text-align: center;
+  }
+  .im {
+    color: white;
+    width: 4em;
+    height: 4em;
+    margin: 3%;
+    padding: 3%;
+  }
+
+ }
+ .month {
+
+  justify-content: center;
+}
+.month h4 {
+  font-size: 1em;
+  margin: 2em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.div-h p {
+  position: absolute;
+  right: 1em;
+}
+.ingresos .barra {
+  border: 0.5em solid green;
+  width: 80%;
+  margin: auto;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  position: relative;
+  left: -6.6em;
+}
+.gastos .barra {
+  border: 0.5em solid purple;
+  width: 50%;
+  margin: auto;
+  margin-top: 9%;
+  margin-bottom: 5%;
+  position: relative;
+  left: -7em;
+}
+.arrow,
+.arrow2 {
+  width: 0.5em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+.container-ing {
+  margin: 1em;
+}
+h5 {
+  font-size: 0.8em;
+}
+.progress {
+  width: 100%;
+}

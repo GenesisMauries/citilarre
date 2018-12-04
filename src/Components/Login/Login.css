@@ -1,9 +1,31 @@
-.login-panel {
-  background-color: rgba(0, 255, 255, 0.304);
-  padding: 10%;
+.button{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.login-panel{
+  background-image: linear-gradient(180deg, #3CAFE4 0%, #1E3A6C 100%);
+  background-repeat: no-repeat;
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  align-items: center;
+  padding-top: 15em;
+}
+
+.login-panel p{
+  color: #fff;
+}
+
+.login-panel img{
+  width: 18em;
+  text-align: center !important;
 }
 
 .btn-active {
+  text-align: center !important;
   font-family: Arial;
   font-size: 0.8em;
   background-color: #3cb0e5;
@@ -12,21 +34,19 @@
   -webkit-border-radius: 4px;
   border-radius: 1.5em;
   border-color: #3cb0e5;
-  width: 8em;
+  width: 19.5em;
   height: 3em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-secondary {
   font-family: Arial;
   font-size: 0.8em;
   background-color: #94949400;
-  color: white;
+  color: #fff;
   -moz-border-radius: 5px;
   -webkit-border-radius: 4px;
   border-radius: 1.5em;
-  border-color: #94949400;
-  width: 8em;
+  border-color: #fff;
+  width: 19.5em;
   height: 3em;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
