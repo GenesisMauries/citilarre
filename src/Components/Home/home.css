@@ -1,9 +1,10 @@
 .display-flex {
   display: flex;
- }
- .container-header {
+}
+.container-header {
   position: fixed;
   width: 100vw;
+  height: 40vh;
   background-image: linear-gradient(
     to right top,
     #1e3a6c,
@@ -14,31 +15,31 @@
   );
   color: white;
   font-family: Arial, Helvetica, sans-serif;
- }
- .container-header div {
-  margin-left: 1.5em;
-  /* margin-right: 1.5em; */
- }
- .container-header h1 {
-  font-size: 1.5em;
+}
+.container-header h1 {
+  font-size: 1.1em;
   margin-right: 2em;
-  padding-bottom: 1em;
- }
- .container-header h3 {
+  padding-bottom: 0.5em;
+}
+.container-header h3 {
   padding-top: 1em;
- }
- .month {
+  padding-left: 1em;
+  font-size: 1.5em;
+}
+.month {
   justify-content: center;
- }
- .month h4 {
+}
+.month h4 {
   font-size: 1em;
   margin: 2em;
- }
- .div-h p {
+  margin-bottom: 0;
+  margin-top: 0;
+}
+.div-h p {
   position: absolute;
   right: 1em;
- }
- .ingresos .barra {
+}
+.ingresos .barra {
   border: 0.5em solid green;
   width: 80%;
   margin: auto;
@@ -46,8 +47,8 @@
   margin-bottom: 5%;
   position: relative;
   left: -6.6em;
- }
- .gastos .barra {
+}
+.gastos .barra {
   border: 0.5em solid purple;
   width: 50%;
   margin: auto;
@@ -55,8 +56,19 @@
   margin-bottom: 5%;
   position: relative;
   left: -7em;
- }
- .arrow,
- .arrow2 {
+}
+.arrow,
+.arrow2 {
   width: 0.5em;
- }
+  margin-right: 3em;
+  margin-left: 3em;
+}
+.container-ing {
+  margin: 1em;
+}
+h5 {
+  font-size: 0.8em;
+}
+.progress {
+  width: 100%;
+}

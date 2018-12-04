@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import CardStatus from '../Data/data';
-import './Movments.css';
+import React, { Component } from "react";
+import CardStatus from "../Data/data";
+import "./Movments.css";
 
 class Movments extends Component {
   render() {
