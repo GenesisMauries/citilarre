@@ -1,6 +1,7 @@
-import React, { Component } from "react";
-import "./home.css";
-import Header from "./Header";
+import React, { Component } from 'react';
+import './home.css';
+import Header from './Header';
+import Movments from './Movments';
 
 class Home extends Component {
   constructor(props) {
@@ -11,6 +12,7 @@ class Home extends Component {
     return (
       <div className="home">
         <Header />
+        <Movments />
       </div>
     );
   }
