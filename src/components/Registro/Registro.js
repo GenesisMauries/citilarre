@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom'
 import './Registro.css';
 import Citi from "../../assets/Image 3.png"
 
@@ -16,7 +17,8 @@ class Registro extends Component {
         <span>CELULAR</span>
         <input type="text" ></input>
 
-        <button className="btn-secondary">CONTINUAR</button>
+        {/* <button className="btn-secondary">CONTINUAR</button> */}
+        <Link to="./home" className="btn-secondary">CONTINUAR</Link>
         <a className="link">Términos y condiciones</a>
         </div>
         </div>

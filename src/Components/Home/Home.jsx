@@ -4,18 +4,18 @@ import Header from './Header';
 import Movments from './Movments';
 
 class Home extends Component {
-  constructor(props) {
-    super(props);
-    this.state = {};
-  }
-  render() {
-    return (
-      <div className="home">
-        <Header />
-        <Movments />
-      </div>
-    );
-  }
+ constructor(props) {
+   super(props);
+   this.state = {};
+ }
+ render() {
+   return (
+     <div className="home">
+       <Header />
+       <Movments />
+     </div>
+   );
+ }
 }
 
 export default Home;

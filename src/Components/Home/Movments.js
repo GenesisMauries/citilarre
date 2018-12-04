@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import CardStatus from '../data/data';
+import CardStatus from '../Data/data';
 import './Movments.css';
 
 class Movments extends Component {
