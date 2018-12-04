@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom'
 import Citi from "../../assets/Image 3.png"
 import './Login.css';
 
@@ -21,6 +22,8 @@ const Login = () => {
     }
   };
 
+  
+
   return (
     <div className="login-panel">
       <figure>
@@ -29,9 +32,10 @@ const Login = () => {
       {/* <input id="password" placeholder="Contraseña" /> */}
       <p>Tu salud financiera a un solo click</p>
       <div className="button">
-        <button onClick={auth} className="btn-active">
+      <Link to="/registro" className="btn-active">REGISTRATE</Link>
+        {/* <button onClick={redirect} className="btn-active">
           REGISTRATE
-      </button>
+      </button> */}
       </div>
       <div className="button">
         <button onClick={auth} className="btn-secondary">
