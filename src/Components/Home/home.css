@@ -1,0 +1,31 @@
+.display-flex {
+  display: flex;
+}
+.container-header {
+  background-image: linear-gradient(
+    to right top,
+    #1e3a6c,
+    #25558b,
+    #2b72a9,
+    #3390c7,
+    #3cafe4
+  );
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container-header div {
+  margin-left: 1.5em;
+  margin-right: 1.5em;
+}
+.container-header h1 {
+  font-size: 1.5em;
+  margin-right: 2em;
+  padding-bottom: 1em;
+}
+.container-header h3 {
+  padding-top: 1em;
+}
+.home {
+  width: 100vw;
+  height: 30vh;
+}
